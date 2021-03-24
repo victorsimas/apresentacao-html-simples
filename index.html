@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dumbies Site</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="dumbies-present">
+            <div class="dumbies-desc">Dumbies</div>
+            <p>Um site para apresentar um pouco de mim</p>
+        </div>
+        <div class="dumbies-present">
+            <div class="dumbies-contact">
+                <p><b>Gostaria de saber mais do meu portifólio?</b></p>
+                <p>Acesse! <b><a href="https://github.com/victorsimas?tab=repositories">https://github.com/victorsimas?tab=repositories</a></b></p>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <nav class="sumary">
+            <ul>
+                <li>
+                    <b><a href="#" class="sumary-item">Interesses</a></b>
+                    <ul>
+                        <li><a href="#" class="sumary-item">Tecnologias Open Source</a></li>
+                        <li><a href="#" class="sumary-item">Jogos Indie</a></li>
+                        <li><a href="#" class="sumary-item">Hackatoons</a></li>
+                        <li><a href="#" class="sumary-item">Memes</a></li>
+                        <li><a href="#" class="sumary-item">Animação</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <b><a href="#" class="sumary-item">Hobbies</a></b>
+                    <ul>
+                        <li><a href="#" class="sumary-item">Desenhos</a></li>
+                        <li><a href="#" class="sumary-item">Leitura</a></li>
+                        <li><a href="#" class="sumary-item">Estudo de Design Patterns</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <b><a href="#" class="sumary-item">Gostos</a></b>
+                    <ul>
+                        <li><a href="#" class="sumary-item">Animes</a></li>
+                        <li><a href="#" class="sumary-item">Souls Series</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div>
+                <p class="content-text">Um pouco sobre mim:</p>
+                <p class="content-text">
+                    Estou na area de TI a alguns anos, mas estou em busca de aprimorar ainda minhas habilidades, seja soft ou hard skill.
+                    Neste curso, eu espero desenvolver todos os meus pontos fortes, e, principalmente, os fracos.
+                </p>
+                <p class="content-text">
+                    Tudo o que conseguimos vem de um trabalho duro e dedicado, mas para obtermos futuras oportunidades de carreira, é necesário uma base solida,
+                    e esse é o principal motivo de eu fazer este curso.
+                </p>
+                <p class="content-text"> A seguir, um pouco das minhas expectativas</p>
+            </div>
+            <table>
+                <thead>
+                  <th>Tecnologias</th>
+                  <th>Nivel Atual</th>
+                  <th>Nivel Esperado</th>
+                </thead>
+                <tbody>
+                  <td>Front-end</td>
+                  <td>Novato</td>
+                  <td>Experiente</td>
+                </tbody>
+                <tbody>
+                  <td>Backend</td>
+                  <td>Experiente</td>
+                  <td>Senior</td>
+                </tbody>
+                <tbody>
+                  <td>Base de dados</td>
+                  <td>Novato</td>
+                  <td>Senior</td>
+                </tbody>
+                <tbody>
+                  <td>Redes</td>
+                  <td>Familiarizado</td>
+                  <td>Experiente</td>
+                </tbody>
+                <tbody>
+                    <td>Sistemas Operacionais</td>
+                    <td>Experiente</td>
+                    <td>Senior</td>
+                </tbody>
+            </table>
+            <div>
+                <p class="content-text">
+                    Enfim, uma jornada até la... rs
+                </p>
+                <p class="content-text">
+                    Caso queira me contatar, basta inserir seu nome, motivo e numero para contato
+                </p>
+            </div>
+            <div>
+                <form action="#" id="insertData" name="userData" method="post">
+                    <div>
+                        <label for="userName">Nome (Opcional)</label>
+                        <input type="text" id="userName" placeholder="Janio Quadros" maxlength="50" minlength="5">
+                    </div>
+                    <div>
+                        <label for="motivation">Motivo</label>
+                        <select name="motivation" id="motivation">
+                            <option value="1">Conversa amigavel</option>
+                            <option value="2">Duvida tecnica</option>
+                            <option value="3">Proposta de trabalho</option>
+                            <option value="4">Outros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="userContact">Telefone</label>
+                            <input type="text" id="userContact" placeholder="1198765-4321" maxlength="13" minlength="10">
+                        </div>
+                    </div>
+                </form>
+            </div>              
+        </div>
+    </div>
+</body>

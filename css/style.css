@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans',
+    sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    background-color: #fdfbf4;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid rgb(211, 203, 190);
+}
+
+.dumbies-desc
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.dumbies-present
+{
+    color: rgb(189, 69, 13);
+    padding: 20px;
+}
+
+.dumbies-contact
+{
+    padding-top: 10px;
+}
+
+.sumary {
+    padding-top: 30px;
+    width: calc(0vh + 250px);
+    height: 100vh;
+    background-color: #f8f8f8;
+    border-right: 1px solid rgb(206, 206, 206);
+    padding-left: 15px;
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between
+}
+
+.sumary li
+{
+    margin: 5px;
+}
+
+.sumary-item
+{
+    color: black;
+}
+
+.page
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #d1d1d1;
+    background-image: url("../images/sekiro.jpg");
+    padding: 0 15px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.content
+{
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #f8f8f8;
+    padding: 25px;
+}
+
+.content-text
+{
+    padding: 4px;
+    justify-content:space-between;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+#insertData
+{
+    justify-content:space-between;
+    padding-top: 15px;
+}
+
+tbody:hover {background-color: #f5f5f5;}
+
+tbody:nth-child(even) {background-color: #f2f2f2;}
